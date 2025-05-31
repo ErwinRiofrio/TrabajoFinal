@@ -1,0 +1,355 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.registro-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.registro-titulo {
+    text-align: center;
+    color: #333;
+}
+
+.registro-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.registro-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.registro-boton {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registro-boton:hover {
+    background-color: #2980b9;
+}
+
+.registro-mensaje {
+    text-align: center;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.registro-enlace {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.registro-enlace:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #27ae60;
+}
+
+.login-register-form {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.register-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #2980b9;
+}
+
+.dashboard-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-header h2 {
+    margin: 0;
+}
+
+.dashboard-nav {
+    background-color: #34495e;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.dashboard-nav a,
+.logout-button {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-nav a:hover,
+.logout-button:hover {
+    background-color: #2c3e50;
+}
+
+.logout-form {
+    display: inline;
+}
+
+.logout-button {
+    background-color: #e74c3c;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    color: #333;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.btn-danger {
+    color: white;
+    background-color: #dc3545;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+}
+.btn-danger:hover {
+    background-color: #a71d2a;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+.btn-secondary:hover {
+    background-color: #565e64;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.contenedor-clientes {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.titulo-clientes {
+    text-align: center;
+    color: #222;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.formulario-clientes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-text {
+    flex: 1 1 200px;
+    padding: 10px 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.input-text:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.btn-agregar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-agregar:hover {
+    background-color: #45a049;
+}
+
+.tabla-clientes {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tabla-clientes th, .tabla-clientes td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-clientes th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700;
+}
+
+.tabla-clientes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.form-eliminar {
+    display: inline;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-eliminar:hover {
+    background-color: #c0392b;
+}
+
+.link-volver {
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.btn-volver {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #333;
+}
+
