@@ -24,12 +24,14 @@ class Usuario {
     }
 
     // Método para crear usuario (solo para insertar usuarios con contraseña hasheada)
-    public function crearUsuario($email, $password) {
+    public function crearUsuario($email, $password, $nombre) {
         $password_hash = password_hash($password, PASSWORD_BCRYPT);
-        $sql = "INSERT INTO {$this->table} (email, password_hash) VALUES (:email, :password_hash)";
+        $sql = "INSERT INTO {$this->table} (email, password_hash, nombre) VALUES (:email, :password_hash, :nombre)";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':password_hash', $password_hash);
+        $stmt->bindParam(':nombre', $nombre);
         return $stmt->execute();
     }
+
 }
